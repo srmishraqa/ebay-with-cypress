@@ -1,0 +1,29 @@
+{
+  "name": "ebay-with-cypress",
+  "version": "1.0.0",
+  "description": "Automating ebay UI with cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "format": "prettier --write \"{,!(node_modules)/**/}*.{js,jsx}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srmishraqa/ebay-with-cypress.git"
+  },
+  "keywords": [],
+  "author": "Soumya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srmishraqa/ebay-with-cypress/issues"
+  },
+  "homepage": "https://github.com/srmishraqa/ebay-with-cypress#readme",
+  "devDependencies": {
+    "cypress": "^12.13.0",
+    "cypress-mochawesome-reporter": "^3.5.0",
+    "cypress-xpath": "^1.8.0",
+    "mocha": "^10.2.0",
+    "prettier": "^2.8.8"
+  }
+}
