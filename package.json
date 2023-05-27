@@ -4,7 +4,7 @@
   "description": "Automating ebay UI with cypress",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "cypress run --spec cypress/e2e/ebayTests.spec.js --browser chrome --headed",
     "cy:open": "cypress open",
     "format": "prettier --write \"{,!(node_modules)/**/}*.{js,jsx}\""
   },
